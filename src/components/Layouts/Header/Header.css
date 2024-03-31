@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+header {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin: 0;
+    background-image: url('../../../assets/images/4.jpg');
+    justify-content: center;
+    align-items: center;
+    padding: 1vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+header h1{
+    font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-style: normal;
+    color: #b68964;
+    margin: 0 32rem;
+    font-size: 60px;
+    margin-top: 20vh;
+}

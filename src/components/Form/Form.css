@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-container h1 {
+    font-family: "Dokdo", system-ui;
+    color: #d8b69f;
+    font-size: 40px;
+}
+hr{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #7e664e;
+    width: 90vw;
+    height: max-content;
+    margin: 50px auto; 
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #7e664e;
+    padding: 40px;
+  }
+  
+ ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+  }
+  
+  #checkboxTask{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre el círculo y el título */
+  }

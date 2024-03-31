@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+.home-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home-container h1 {
+    font-family: "Dokdo", system-ui;
+    color: #d8b69f;
+    font-size: 40px;
+}
+hr{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    background-color: #7e664e;
+    width: 90vw;
+    height: max-content;
+    margin: 50px auto; 
+    border: 1px solid;
+    border-radius: 8px;
+    border-color: #7e664e;
+    padding: 40px;
+  }
+  
+ ul {
+    display: flex;
+    flex-direction: column;
+    list-style-type: none;
+    justify-content: center;
+    align-items: center; 
+    color: #fff;
+  }
+  
+  #checkboxTask{
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 10px; /* Espacio entre el círculo y el título */
+  }
+  
+  .green {
+    background-color: rgb(120, 206, 120);
+  }
+  
+  .red {
+    background-color: rgb(213, 115, 115);
+  }
+
+  button{
+    display: flex;
+    font-family: "Dokdo", system-ui;
+    font-weight: 400;
+    font-size: 15px; 
+    padding: 8px 8px; 
+    background-color: #2b2a2f;
+    border-radius: 20%;
+    color: #fff;
+    margin: 5vh;
+  }
+  

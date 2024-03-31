@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Dokdo&display=swap');
+.Filter-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.Filter-container h1{
+    font-family: "Dokdo", system-ui;
+  font-weight: 400;
+  font-size: 40px;
+    color: #b68964;
+    margin: 10px;
+}
+
+select{
+    border: 1px solid #ccc;
+  border-radius: 8px;
+  color: #743d38;
+}
